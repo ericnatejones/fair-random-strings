@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { URL } = require('url');
 const path = require('path');
 const stringList = ["Jamie", "Phat", "John", "Arlus", "Osha", "Nonnie", "Adam", "Kit", "Dallin", "Dylan", "Mac", "Ammon", "Calvin", "Dylgar"]
 
