@@ -15,7 +15,7 @@ let finalString = `+++\n++\n+\n++\n+++\n+++++       ${students.splice(randomNumb
 
 console.log(finalString);
 
-if (students.length <= 1){
+if (students.length <= 0){
   students = stringList;
 }
 
