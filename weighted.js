@@ -16,4 +16,6 @@ const selectedStudent = studentsArray[Math.floor(Math.random()*studentsArray.len
 
 students[selectedStudent] = 0
 
-fs.writeFile(path.join(__dirname, 'weighted-students.json'), JSON.stringify(students), ()=>{console.log(selectedStudent)});
+const stringStudent  = `+++\n++\n+\n++\n+++\n+++++     ${selectedStudent} \n+++\n++\n+\n++\n+++`
+
+fs.writeFile(path.join(__dirname, 'weighted-students.json'), JSON.stringify(students), ()=>{console.log(stringStudent)});
