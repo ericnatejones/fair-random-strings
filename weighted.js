@@ -3,10 +3,11 @@ const path = require('path');
 
 const students = JSON.parse(fs.readFileSync(path.join(__dirname, 'weighted-students.json'), 'utf8'));
 
-const studentsArray = []
+const studentsArray = [];
 
 for (student in students) {
-  students[student]++for (let i = 0; i < students[student]; i++) {
+  students[student]++
+  for (let i = 0; i < students[student]; i++) {
     studentsArray.push(student)
   }
 }
